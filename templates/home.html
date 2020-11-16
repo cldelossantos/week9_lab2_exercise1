@@ -1,16 +1,14 @@
-<!doctype hmtl>
+{% extends "base.html" %}
 
-<html>
-    <head>
-        
-        <title>
-            Claudia's Week 9 - Lab 1
-        </title>
-        
-    </head>
-    
-    <body>
-        Hello Claudia's World
-    </body>
-    
-    </html>
+{% block title %}Claudia's Simple Site{% endblock %}
+
+{% block header %}
+<h1>Claudia's Simple Site</h1>
+
+{% endblock %}
+
+{% block content %}
+<div>
+<p>Welcome, user.<p>
+</div>
+{% endblock %}
